@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Changing Box</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: #f00; /* Starts as red */
+      transition: background-color 2s ease; /* Smooth color change */
+    }
+  </style>
+</head>
+<body>
+  <div class="box"></div>
+
+  <script>
+    const box = document.querySelector('.box');
+    const colors = ['#f00', '#0f0', '#00f']; // Array of colors
+    let colorIndex = 0; 
+
+    function changeColor() {
+      box.style.backgroundColor = colors[colorIndex];
+      colorIndex = (colorIndex + 1) % colors.length; // Cycle to next color
+    }
+
+    setInterval(changeColor, 2000); // Change color every 2 seconds
+  </script>
+</body>
+</html>
