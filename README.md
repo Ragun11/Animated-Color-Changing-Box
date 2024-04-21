@@ -5,10 +5,15 @@ This project demonstrates a simple yet visually appealing web page featuring a b
 **Concept**
 
 HTML Structure: Basic HTML setup with a div to represent the color-changing box.
+
 CSS Styling: Styling the div (size, initial color, transition effect).
+
 JavaScript DOM Manipulation: Selecting the div element using document.querySelector().
+
 JavaScript Array: Storing a list of color values for cycling.
+
 JavaScript Functions: A changeColor() function to update the box's background color and cycle through the array of colors.
+
 JavaScript Timing: Using setInterval() to trigger the color change function repeatedly.
 
 **How to Run**
