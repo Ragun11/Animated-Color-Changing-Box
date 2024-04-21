@@ -20,7 +20,7 @@ JavaScript Timing: Using setInterval() to trigger the color change function repe
 
 Save the HTML, CSS, and JavaScript code into a single HTML file (e.g., index.html).
 
-Open the index.html file in any modern web browser.
+Open the index.html file in any web browser.
 
 **Customization**
 
