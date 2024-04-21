@@ -1,6 +1,6 @@
 **Color Changing Box**
 
-This project demonstrates a simple yet visually appealing web page featuring a box that smoothly transitions through different colors.
+This project demonstrates a simple visually appealing web page featuring a box that smoothly transitions through different colors.
 
 **Concept**
 
