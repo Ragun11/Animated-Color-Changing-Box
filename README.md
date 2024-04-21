@@ -19,10 +19,13 @@ JavaScript Timing: Using setInterval() to trigger the color change function repe
 **How to Run**
 
 Save the HTML, CSS, and JavaScript code into a single HTML file (e.g., index.html).
+
 Open the index.html file in any modern web browser.
 
 **Customization**
 
 Experiment with different colors in the colors array.
+
 Adjust the transition duration in the CSS to change the speed of color changes.
+
 Modify the timing interval within setInterval() to change the frequency of the color changes.
