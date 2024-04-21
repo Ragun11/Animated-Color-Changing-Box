@@ -4,27 +4,34 @@
   <title>Color Changing Box</title>
   <style>
     .box {
-      width: 200px;
-      height: 200px;
-      background-color: #f00; /* Starts as red */
-      transition: background-color 2s ease; /* Smooth color change */
+      width: 200px;   /* Set the width of the box */
+      height: 200px;  /* Set the height of the box */
+      background-color: #f00; /* Start with a red background */
+      transition: background-color 2s ease; /* Make color changes smoothly over 2 seconds */
     }
   </style>
 </head>
 <body>
-  <div class="box"></div>
+  <div class="box"></div> 
 
   <script>
-    const box = document.querySelector('.box');
-    const colors = ['#f00', '#0f0', '#00f']; // Array of colors
+    // Select the element with the class 'box' 
+    const box = document.querySelector('.box'); 
+
+    // Array of colors to cycle through
+    const colors = ['#f00', '#0f0', '#00f']; // Red, green, blue
+
+    // Index of the current color
     let colorIndex = 0; 
 
+    // Function to change the background color of the box
     function changeColor() {
-      box.style.backgroundColor = colors[colorIndex];
-      colorIndex = (colorIndex + 1) % colors.length; // Cycle to next color
+      box.style.backgroundColor = colors[colorIndex]; // Set the color from the array
+      colorIndex = (colorIndex + 1) % colors.length; // Move to the next color index
     }
 
-    setInterval(changeColor, 2000); // Change color every 2 seconds
+    // Call the changeColor function every 2 seconds
+    setInterval(changeColor, 2000); 
   </script>
 </body>
 </html>
