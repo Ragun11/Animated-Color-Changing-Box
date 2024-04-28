@@ -16,11 +16,6 @@ JavaScript Functions: A changeColor() function to update the box's background co
 
 JavaScript Timing: Using setInterval() to trigger the color change function repeatedly.
 
-**How to Run**
-
-Save the HTML, CSS, and JavaScript code into a single HTML file (e.g., index.html).
-
-Open the index.html file in any web browser.
 
 **Customization**
 
